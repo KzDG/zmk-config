@@ -9,12 +9,12 @@ svg.keymap {
     font-size: 14px;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
-    fill: #24292e;
+    fill: #e3e3e3;
 }
 
 /* default key styling */
 rect.key {
-    fill: #f6f8fa;
+    fill: #24292e;
     stroke: #c9cccf;
     stroke-width: 1;
 }
@@ -45,7 +45,7 @@ text.label {
     font-weight: bold;
     text-anchor: start;
     stroke: white;
-    stroke-width: 2;
+    stroke-width: 0;
     paint-order: stroke;
 }
 
@@ -93,8 +93,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g class="layer-default">
-<text x="30.0" y="28.0" class="label">default:</text>
+<g class="layer-MAC">
+<text x="30.0" y="28.0" class="label">MAC:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="79.0" width="52.0" height="52.0" class="key"/>
 <text x="58.0" y="105.0" class="tap">Q</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="65.0" width="52.0" height="52.0" class="key"/>
